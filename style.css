@@ -103,7 +103,6 @@ messi with ball style start
 .messi-img img{
     width: 567px;
     height: 427px;
-    border: 1px solid blue;
     border-radius: 14px;
     
 }
@@ -145,14 +144,35 @@ icon container style
 /*--------------------
 media query start
 ----------------------*/
+/* mobile style */
 @media only screen and (max-width:688px) {
     body{
-        padding-left: 35px;
+        padding-left: 3px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 50%;
+    }
+    header{
+        width: 360px;
+        height: 695px;
+    }
+    .section-text{
+        font-size: 36px;
+        position: relative;
+        right: 20px;
     }
     .players{
         display: grid;
         grid-template-columns: repeat(1,1fr);
-        
+        position: relative;
+        right: 165px;
+    }
+    .player{
+        width: 330px;
+        height: 474px;
     }
     .player-info{
         text-align: justify;
@@ -166,11 +186,35 @@ media query start
         font-size: 30px;
         
     }
-    header{
-        width: 100%;
+    .watch-live{
+        padding-left: 19px;
+        position: relative;
+        bottom: 20px;
+        right: 100px;
     }
-
-    header, .icon-container,.flexible-container{
+    .section-title{
+        position: relative;
+        bottom: 10px;
+    }
+    .banner-img img{
+        width: 329px;
+        height: 259px;
+        position: relative;
+        bottom: 80px;
+        right: 280px;
+    }
+    
+    .flexible-container{
         display: none;
+    }
+    .football-logo img{
+        width: 150px;
+        height: 63px;
+        position: relative;
+        left: 10px;
+    }
+    .social-media-icon{
+        position: relative;
+        right: 100px;
     }
 }
