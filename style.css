@@ -132,7 +132,7 @@ icon container style
 .icon-container{
     display: grid;
     justify-content: center;
-    padding-top: 158px;
+    padding-top: 10px;
 }
 .social-media-icon{
     padding-left: 150px;
