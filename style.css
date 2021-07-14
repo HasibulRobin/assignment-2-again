@@ -6,10 +6,32 @@ body{
     margin: 0;
 }
 /*--------------------------
-topper footballer style
+header style
 ----------------------------*/
+header{
+    background-color: rgb(41, 41, 255);
+    height: 677px;
+}
+.section-text,.button-text,.section-icon {
+    color: white;
+    padding-left: 8px;
+}
+.section-text{
+    font-size: 64px;
+    font-weight: 700;
+}
+.button-text{
+    size: 16px;
+}
 
-
+.watch-live{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 168px;
+    height: 44px;
+    background-color:#E02C6D;
+}
 
 /*--------------------------
 Normal players style
