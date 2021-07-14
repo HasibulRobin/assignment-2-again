@@ -111,6 +111,19 @@ messi with ball style start
     transition: transform 2s linear;
 }
 /* messi with ball style end */
+/* vote player style */
+.vote{
+    text-align: center;
+    padding-top: 30px;
+}
+.input{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.vote h3{
+    color: blue;
+}
+
 
 /* ----------------------
 icon container style
@@ -125,11 +138,22 @@ icon container style
     padding-left: 150px;
     display: grid;
     grid-template-columns: repeat(4,0.15fr);
-;
 }
 .fab{
     height: 32px;
     width: 32px;
+}
+.fa-twitter{
+    color: cyan;
+}
+.fa-youtube{
+    color: red;
+}
+.fa-instagram{
+    color:rgb(253, 125, 40);
+}
+.fa-facebook{
+    color: blue;
 }
 .football-logo img{
     width: 490px;
