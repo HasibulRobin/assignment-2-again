@@ -17,18 +17,18 @@ header{
     color: white;
     padding-left: 8px;
 }
-.section-title{
-    position: relative;
-    right: 132px;
-}
 .section-text{
     font-size: 64px;
     font-weight: 700;
 }
+.section-title{
+    position: relative;
+    right: 132px;
+}
+
 .button-text{
     size: 16px;
 }
-
 .watch-live{
     display: flex;
     justify-content: center;
