@@ -6,6 +6,12 @@ body{
     margin: 0;
 }
 /*--------------------------
+topper footballer style
+----------------------------*/
+
+
+
+/*--------------------------
 Normal players style
 ----------------------------*/
 .container{
@@ -50,4 +56,31 @@ flexible container style
 .messi-img img{
     width: 567px;
     height: 427px;
+}
+/* ----------------------
+icon container style
+------------------------*/
+.icon-container{
+    display: grid;
+    justify-content: center;
+}
+.social-media-icon{
+    padding-left: 150px;
+    display: grid;
+    grid-template-columns: repeat(4,0.15fr);
+}
+.fab{
+    height: 32px;
+    width: 32px;
+}
+.football-logo img{
+    width: 490px;
+    height: 110px;
+}
+.copyright{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 60px;
 }
