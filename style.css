@@ -138,3 +138,21 @@ icon container style
     line-height: 24px;
     margin-bottom: 60px;
 }
+/*--------------------
+media query start
+----------------------*/
+@media only screen and (max-width:688px) {
+    .players{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+    .copa-america{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .copa-info h1{
+        font-size: 30px;
+        
+    }
+}
